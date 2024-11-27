@@ -1,0 +1,64 @@
+Infrastructure Templates
+Creating a Virtual Machine on Azure (ARM Template)
+
+Automates the provisioning of a VM with Ubuntu 18.04, including network and storage configurations.
+Ensures consistency in deployment by adhering to Azure Resource Manager standards.
+Creating a Kubernetes Cluster on Azure (Bicep Template)
+
+Deploys a managed Kubernetes service (AKS) with a predefined node pool configuration.
+Facilitates scalable and secure orchestration of containerized workloads.
+Creating a VM and Applications Using Terraform
+
+Automates the creation of Azure Virtual Machines and application deployment.
+Implements Infrastructure as Code (IaC) best practices for cross-environment repeatability.
+
+CI/CD Pipeline Templates
+CI Pipeline for .NET Code Repository (YAML)
+
+Restores, builds, and tests .NET applications.
+Ensures code quality and build integrity before deployment.
+CI Pipeline for Python Code Repository (YAML)
+
+Installs dependencies and executes automated tests using pytest.
+Guarantees continuous integration of Python projects with high-quality code validation.
+CD Pipeline for Deploying an App on Azure (YAML)
+
+Automates deployment of web applications to Azure App Service.
+Supports package uploads and configuration management for seamless application delivery.
+CD Pipeline for Deploying on AKS (YAML)
+
+Deploys application workloads to Azure Kubernetes Service (AKS) using Kubernetes manifests.
+Enables efficient and scalable containerized application delivery.
+
+
+Alignment with Audit Requirements
+DevOps Readiness Plan
+Templates ensure infrastructure and pipelines are deployed consistently and efficiently.
+Integrates GitHub Advanced Security (GHAS) features, such as:
+Code Scanning.
+Dependency Review.
+Secret Scanning.
+
+Reusable Intellectual Property
+Templates and pipelines follow industry best practices for repeatability and scalability.
+Comprehensive documentation supports easy adoption by customers and internal teams.
+
+Roadmap and Execution
+Clearly defined processes for readiness assessment, implementation, and improvement.
+Roadmap aligns with customer goals for operational excellence and security.
+
+Supporting Artifacts
+Infrastructure Templates:
+ARM, Bicep, and Terraform templates for deploying VMs and Kubernetes clusters.
+
+
+CI/CD Pipelines:
+YAML-based pipelines for .NET and Python repositories, Azure App Service, and AKS deployments.
+Documentation:
+
+Instructions for using the templates.
+Security roadmap and training materials for GHAS.
+Training Resources:
+
+Guides on using GitHub Advanced Security.
+Learning paths for customers to enhance DevOps maturity.
