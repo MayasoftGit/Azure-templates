@@ -1,0 +1,14 @@
+trigger: none
+
+pool:
+  vmImage: 'ubuntu-latest'
+
+steps:
+  - task: Kubernetes@1
+    inputs:
+      connectionType: 'Azure Resource Manager'
+      azureSubscription: '<Service_Connection_Name>'
+      azureResourceGroup: '<Resource_Group>'
+      kubernetesCluster: '<AKS_Cluster_Name>'
+      command: 'apply'
+      arguments: '-f deployment.yaml'
